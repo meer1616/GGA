@@ -33,6 +33,9 @@ background-color: rgb(39, 39, 39);
   padding: 10px 20px;
   text-align: center;
 }
+.navelem:hover{
+ cursor: pointer;
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -55,11 +58,11 @@ background-color: rgb(39, 39, 39);
   text-align: center;
 }
 .dropdown-content p a:hover{
-  color: #0060f0;
+  color: #347ff0;
 }
-.dropdown:hover .dropdown-content {
+#Dropdown{
   color: #5296fd;
-  display: block;
+  display: none;
   transform-origin:top;
 }
 .dropdown-content p a{

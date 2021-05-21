@@ -1,11 +1,20 @@
 function toogle(e){
-    let x=document.getElementById('sym');
-    let y=document.getElementById('nav');
-    if( x.style.display!='block' && y.style.display!='block'){
-        y.style.display='block';
-        x.style.display='block';
+    let sym=document.getElementById('sym');
+    let nav=document.getElementById('nav');
+    if( sym.style.display!='block' && nav.style.display!='block'){
+        nav.style.display='block';
+        sym.style.display='block';
     }else{
-        x.style.display='none';
-        y.style.display='none';       
+        sym.style.display='none';
+        nav.style.display='none';       
+    }
+}
+function downdrop(){
+    let Dropdown=document.getElementById("Dropdown");
+    if(Dropdown.style.display=="none"){
+        Dropdown.style.display="block"
+    }
+    else{
+    Dropdown.style.display="none"
     }
 }
